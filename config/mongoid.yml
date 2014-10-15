@@ -1,4 +1,4 @@
-  development:
+development:
   # Configure available database sessions. (required)
   sessions:
     # Defines the default session. (required)
@@ -9,7 +9,7 @@
       # Provides the hosts the default session can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
-        - localhost:27017	
+        - localhost:27017
       options:
         # Change the default write concern. (default = { w: 1 })
         # write:
