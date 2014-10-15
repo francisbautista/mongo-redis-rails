@@ -6,8 +6,11 @@ gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
 gem 'bson_ext'
-# gem 'redis-store', '~> 1.0.0'
-gem 'sqlite3'
+gem 'redis-rails'
+group :development do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
