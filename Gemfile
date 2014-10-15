@@ -6,6 +6,9 @@ gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
 gem 'bson_ext'
+# gem 'redis-store', '~> 1.0.0'
+gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
