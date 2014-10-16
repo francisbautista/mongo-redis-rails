@@ -4,5 +4,5 @@ class Product
   field :product_code, type: Integer
   field :description, type: String
   field :price, type: Integer
-  embedded_in :category :inverse_of => :products
-end	
+  embedded_in :category, inverse_of: :products
+end
